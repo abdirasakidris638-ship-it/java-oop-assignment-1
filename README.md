@@ -41,7 +41,7 @@ To receive full credit, you must show a **history of progress**. Do not upload y
 See which files you have modified:
 ```bash
 git status
-
+```
 ### 2. Stage your changes
 Tell Git which files you want to include in your next "snapshot":
 
