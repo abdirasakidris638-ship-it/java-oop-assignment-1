@@ -62,6 +62,10 @@ Upload your local commits to the cloud:
 ```bash
 git push origin main
 ```
+### 5. **Troubleshooting:** Before you git push, run this command in your VS Code terminal to make sure your code compiles. If you see no errors, your code is ready to be committed!
+```bash
+javac -d . src/*.java
+```
 
 ## ⚠️ Important Rules
 **Manual Grading:** Your instructor will review your Commit History to verify your involvement.
