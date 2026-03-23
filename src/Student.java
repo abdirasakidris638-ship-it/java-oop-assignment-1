@@ -25,6 +25,14 @@ public class Student {
 
     // Setter for studentId
     public void setStudentId(int studentId) {
+        if (studentId <= 0) {
+            throw new IllegalArgumentException("studentId must be positive");
+        }
         this.studentId = studentId;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{name='" + name + "', studentId=" + studentId + "}";
     }
 }
